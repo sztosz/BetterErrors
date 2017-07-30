@@ -1,8 +1,6 @@
 #!/usr/bin/env ocaml
 
 #directory "pkg"
-#use "topfind";;
-#require "Re_pcre";;
 #use "topkg.ml"
 
 let () =
