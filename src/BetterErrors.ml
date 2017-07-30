@@ -21,4 +21,5 @@ let () =
     usage
 let _ = 1
 
-let () = Index.parseFromStdin refmttypePath::!refmttypePath customErrorParsers::[];
+let () = Index.parseFromStdin refmttypePath !refmttypePath customErrorParsers;
+
