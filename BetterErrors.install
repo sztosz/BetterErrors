@@ -1,5 +1,5 @@
 bin: [
-  "_build/src/betterErrorsShell.native" {"berror"} ]
+  "_build/src/BetterErrors.native" {"berror"} ]
 doc: [
   "_build/README.md" {"README.md"} ]
 lib: [
