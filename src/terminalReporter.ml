@@ -37,7 +37,9 @@ let _printFile ~highlightColor:color
         (List.hd startingSpaces) startingSpaces in
 
   let sep = if minIndent = 0 then " │ " else " ┆ " in
-
+  let startColumn = startColumn - minIndent in
+  let endColumn = endColumn - minIndent in
+  let result = ref [] in
   for i = displayedStartRow to displayedEndRow do
     (let currLine = (List.nth content i) |> (stringSlice ~first:minIndent) in
      if (i >= startRow) && (i <= endRow)
