@@ -12,26 +12,22 @@ lib: [
   "_build/src/BetterErrors.cma" {"BetterErrors.cma"}
   "_build/src/BetterErrors.cmxa" {"BetterErrors.cmxa"}
   "_build/src/BetterErrors.cmxs" {"BetterErrors.cmxs"}
-  "_build/src/NuclideReporter.cmi" {"NuclideReporter.cmi"}
-  "_build/src/NuclideReporter.cmo" {"NuclideReporter.cmo"}
-  "?_build/src/NuclideReporter.cmt" {"NuclideReporter.cmt"}
-  "_build/src/NuclideReporter.cmx" {"NuclideReporter.cmx"}
-  "_build/src/betterErrorsMain.cmi" {"betterErrorsMain.cmi"}
-  "_build/src/betterErrorsMain.cmo" {"betterErrorsMain.cmo"}
-  "?_build/src/betterErrorsMain.cmt" {"betterErrorsMain.cmt"}
-  "_build/src/betterErrorsMain.cmx" {"betterErrorsMain.cmx"}
-  "_build/src/betterErrorsParseError.cmi" {"betterErrorsParseError.cmi"}
-  "_build/src/betterErrorsParseError.cmo" {"betterErrorsParseError.cmo"}
-  "?_build/src/betterErrorsParseError.cmt" {"betterErrorsParseError.cmt"}
-  "_build/src/betterErrorsParseError.cmx" {"betterErrorsParseError.cmx"}
-  "_build/src/betterErrorsTypes.cmi" {"betterErrorsTypes.cmi"}
-  "_build/src/betterErrorsTypes.cmo" {"betterErrorsTypes.cmo"}
-  "?_build/src/betterErrorsTypes.cmt" {"betterErrorsTypes.cmt"}
-  "_build/src/betterErrorsTypes.cmx" {"betterErrorsTypes.cmx"}
   "_build/src/helpers.cmi" {"helpers.cmi"}
   "_build/src/helpers.cmo" {"helpers.cmo"}
   "?_build/src/helpers.cmt" {"helpers.cmt"}
   "_build/src/helpers.cmx" {"helpers.cmx"}
+  "_build/src/index.cmi" {"index.cmi"}
+  "_build/src/index.cmo" {"index.cmo"}
+  "?_build/src/index.cmt" {"index.cmt"}
+  "_build/src/index.cmx" {"index.cmx"}
+  "_build/src/parseError.cmi" {"parseError.cmi"}
+  "_build/src/parseError.cmo" {"parseError.cmo"}
+  "?_build/src/parseError.cmt" {"parseError.cmt"}
+  "_build/src/parseError.cmx" {"parseError.cmx"}
+  "_build/src/betterErrorsTypes.cmi" {"betterErrorsTypes.cmi"}
+  "_build/src/betterErrorsTypes.cmo" {"betterErrorsTypes.cmo"}
+  "?_build/src/betterErrorsTypes.cmt" {"betterErrorsTypes.cmt"}
+  "_build/src/betterErrorsTypes.cmx" {"betterErrorsTypes.cmx"}
   "_build/src/parseWarning.cmi" {"parseWarning.cmi"}
   "_build/src/parseWarning.cmo" {"parseWarning.cmo"}
   "?_build/src/parseWarning.cmt" {"parseWarning.cmt"}
