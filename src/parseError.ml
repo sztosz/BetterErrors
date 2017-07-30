@@ -36,12 +36,12 @@ let type_IncompatibleType err _ range =
   let expectedRaw = get_match_n 2 allR err in
   let (actual,actualEquivalentType) =
     match splitEquivalentTypes actualRaw with
-    | ((Some ((a,b)))[@explicit_arity ]) ->
+    | Some (a,b) ->
         ((String.trim a), (Some (String.trim b)))
     | None  -> ((String.trim actualRaw), None) in
   let (expected,expectedEquivalentType) =
     match splitEquivalentTypes expectedRaw with
-    | ((Some ((a,b)))[@explicit_arity ]) ->
+    | Some (a,b) ->
         ((String.trim a), (Some (String.trim b)))
     | None  -> ((String.trim expectedRaw), None) in
   ((Type_IncompatibleType
