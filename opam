@@ -17,4 +17,5 @@ build: [
 depends: [
   "ocamlfind" {build}
   "re" {>= "1.5.0"}
+  "pcre"
 ]
